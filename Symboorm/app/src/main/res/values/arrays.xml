@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="symboorm_array">
+        <item>도와주세요</item>
+        <item>힘써주세요</item>
+        <item>갖다주세요</item>
+        <item>받아주세요</item>
+    </string-array>
+</resources>

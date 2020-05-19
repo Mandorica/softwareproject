@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="SSU.Symboorm.ui.board.BoardListFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_boardlist"/>
+
+    <fragment
+        android:id="@+id/nav_payment"
+        android:name="SSU.Symboorm.ui.payment.PaymentFragment"
+        android:label="@string/payment"
+        tools:layout="@layout/fragment_payment" />
+
+    <fragment
+        android:id="@+id/nav_transaction"
+        android:name="SSU.Symboorm.UserListFragment"
+        android:label="@string/transaction"
+        tools:layout="@layout/fragment_userlist" />
+
+    <fragment
+        android:id="@+id/nav_user"
+        android:name="SSU.Symboorm.ui.user.UserFragment"
+        android:label="@string/userinfo_modification"
+        tools:layout="@layout/fragment_user" />
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="SSU.Symboorm.ui.chat.ChatRoomFragment"
+        android:label="채팅"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="SSU.Symboorm.ui.help.HelpFragment"
+        android:label="도움말"
+        tools:layout="@layout/fragment_help" />
+</navigation>
